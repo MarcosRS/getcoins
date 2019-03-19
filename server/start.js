@@ -2,8 +2,7 @@ const axios = require('axios');
 const moment = require('moment');
 
 const start = {
-    init(){
-        console.log('Hello') 
+    init(){ 
         this.getCoinInfo('bitcoin');
     },
     getCoinInfo(coinSymbol){
@@ -12,9 +11,10 @@ const start = {
                             const data = response.data;
                             const currentPrice = data.market.price;
                             const dailyPrices = data.detail.prices_daily;
+
                             return {
                                 price: currentPrice,
-                                highLow: this.cal1MHighLow(dailyPrices, currentPrice)
+                                highLow1M: this.cal1MHighLow(dailyPrices)
                             }
                         })
                         .catch((error) => {
@@ -23,12 +23,26 @@ const start = {
                         });
         return result;
     },
+    
     cal1MHighLow(dailyPrices, currentPrice) {
-        console.log('dailyPrices, currentPrice: ', dailyPrices, currentPrice);
-        dailyPrices.map(dataPoint => {
-            const dataPointTime = moment(dataPoint[0]).format('LLL');
-            console.log(dataPointTime, dataPoint[1]);
-        })
+        const aMonthAgo = moment().subtract(30, 'days').format('x')
+        const reverseDailyPrices = dailyPrices.reverse();
+        let timeStamp = 0; let price = 0; 
+        let high = 0; let low = reverseDailyPrices[0][1];
+        
+        for (let i = 0; i < reverseDailyPrices.length ; i++ ){
+            timeStamp = reverseDailyPrices[i][0];
+            price = reverseDailyPrices[i][1];
+            if (!(timeStamp < aMonthAgo)){
+                if (price >= high ) high = price;
+                if (price < low) low = price;
+            }else{
+                break
+            }
+        }        
+        
+        console.log('{ high, low }: ', { high, low });
+        return { high, low }
     }
     
 }
