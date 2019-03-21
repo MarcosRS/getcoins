@@ -1,8 +1,46 @@
 {
-    "bitcoin": {
+    "ethereum": {
+        "name": "ethereum",
+        "symbol": "eth"
+    },
+    "bitcoin": { 
+        "name": "bitcoin",
         "symbol": "btc"
     },
-    "ethereum":{
-        "symbol": "eth"
+    "cardano": {
+        "name": "cardano",
+        "symbol": "ada"
+    },
+    "theta": {
+        "name": "theta",
+        "symbol": "theta"
+    },
+    "tron": {
+        "name" : "tron",
+        "symbol": "trx"
+    },
+    "loom-network": {
+        "name": "loom-network",
+        "symbol": "loom"
+    },
+    "holochain": {
+        "name": "holochain",
+        "symbol": "hot"
+    },
+    "vertcoin": {
+        "name": "vertcoin",
+        "symbol": "vtc"
+    },
+    "ark": {
+        "name": "ark",
+        "symbol": "ark"
+    },
+    "smartcash": {
+        "name": "smartcash",
+        "symbol": "smart"
+    },
+    "ravencoin": {
+        "name": "ravencoin",
+        "symbol": "rvm"
     }
 }

@@ -1,8 +1,8 @@
 const axios = require('axios');
 const moment = require('moment');
 
-const getCoinInfo = async(coinSymbol) => {
-      const result = await axios.get(`https://api.messari.io/asset/${coinSymbol}`)
+const getCoinInfo = async(coinName) => {
+        const result = await axios.get(`https://api.messari.io/asset/${coinName}`)
                     .then((response) => {
                         const data = response.data;
                         const currentPrice = data.market.price;
@@ -46,8 +46,6 @@ const getCoinInfo = async(coinSymbol) => {
 
   const calCurrentPercent = (high, low, currentPrice) => {
      const range = high - low;
-     
-     console.log('range: ', range);
      return ((currentPrice - low) / range) * 100;
   }
 
