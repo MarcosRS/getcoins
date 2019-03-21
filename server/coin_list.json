@@ -31,6 +31,10 @@
         "name": "mainframe",
         "symbol": "mft"
     },
+    "pumapay":{
+        "name": "pumapay",
+        "symbol": "pma"
+    },
     "vertcoin": {
         "name": "vertcoin",
         "symbol": "vtc"
