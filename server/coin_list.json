@@ -27,6 +27,10 @@
         "name": "holochain",
         "symbol": "hot"
     },
+    "mainframe": {
+        "name": "mainframe",
+        "symbol": "mft"
+    },
     "vertcoin": {
         "name": "vertcoin",
         "symbol": "vtc"
@@ -42,5 +46,213 @@
     "ravencoin": {
         "name": "ravencoin",
         "symbol": "rvm"
-    }
+    },
+    "ripple": {
+        "name": "ripple",
+        "symbol": "xrp"
+    },
+    "litecoin": {
+        "name": "litecoin",
+        "symbol": "ltc"
+    },
+    "eos": {
+        "name": "eos",
+        "symbol": "eos"
+    },
+    "bitcoin-cash": {
+        "name": "bitcoin-cash",
+        "symbol": "bch"
+    },
+    "binance-coin": {
+        "name": "binance-coin",
+        "symbol": "bnb"
+    },
+    "stellar": {
+        "name": "stellar",
+        "symbol": "xlm"
+    },
+    "bitcoin-sv": {
+        "name": "bitcoin-sv",
+        "symbol": "bsv"
+    },
+    "monero": {
+        "name": "monero",
+        "symbol": "xmr"
+    },
+    "iota": {
+        "name": "iota",
+        "symbol": "iot"
+    },
+    "maker": {
+        "name": "maker",
+        "symbol": "mkr"
+    },
+    "dash":{
+        "name": "dash",
+        "symbol": "dash"
+    },
+    "ontology": {
+        "name": "ontology",
+        "symbol": "ont"
+    },
+    "neo": {
+        "name": "neo",
+        "symbol": "neo"
+    },
+    "tezos": {
+        "name": "tezos",
+        "symbol": "xtz"
+    },
+    "ethereum-classic": {
+        "name": "ethereum-classic",
+        "symbol": "etc"
+    },
+    "nem": {
+        "name": "nem",
+        "symbol": "xem"
+    },
+    "zcash": {
+        "name": "zcash",
+        "symbol": "zec"
+    },
+    "vechain": {
+        "name": "vechain",
+        "symbol": "vet"
+    },
+    "waves": {
+        "name": "waves",
+        "symbol": "waves"
+    },
+    "huobi-token": {
+        "name": "huobi-token",
+        "symbol": "ht"
+    },
+    "einsteinium": {
+        "name": "einsteinium",
+        "symbol": "emc2"
+    },
+    "particl": {
+        "name": "particl",
+        "symbol": "part"
+    },
+    "elastos": {
+        "name": "elastos",
+        "symbol": "ela"
+    },
+    "zilliqa": {
+        "name": "zilliqa",
+        "symbol": "zil"
+    },
+    "basic-attention-token": {
+        "name": "basic-attention-token",
+        "symbol": "bat"
+    },
+    "dogecoin": {
+        "name": "dogecoin",
+        "symbol": "doge"
+    },
+    "bitcoin-gold": {
+        "name": "bitcoin-gold",
+        "symbol": "btg"
+    },
+    "omisego": {
+        "name": "omisego",
+        "symbol": "omg"
+    },
+    "qtum": {
+        "name": "qtum",
+        "symbol": "qtum"
+    },
+    "decred": {
+        "name": "decred",
+        "symbol": "dcr"
+    },
+    "lisk": {
+        "name": "lisk",
+        "symbol": "lsk"
+    },
+    "chainlink": {
+        "name": "chainlink",
+        "symbol": "link"
+    },
+    "augur": {
+        "name": "augur",
+        "symbol": "rep"
+    },
+    "0x": {
+        "name": "0x",
+        "symbol": "zrx"
+    },
+    "enjin-coin": {
+        "name": "enjin-coin",
+        "symbol": "enj"
+    },
+    "digibyte": {
+        "name": "digibyte",
+        "symbol": "dgb"
+    },
+    "steem": {
+        "name": "steem",
+        "symbol": "steem"
+    },
+    "bytecoin": {
+        "name": "bytecoin",
+        "symbol": "bnc"
+    },
+    "bitshares": {
+        "name": "bitshares",
+        "symbol": "bts"
+    },
+    "bitcoin-diamond": {
+        "name": "bitcoin-diamond",
+        "symbol": "bcd"
+    },
+    "icon": {
+        "name": "icon",
+        "symbol": "icx"
+    },
+    "aeternity": {
+        "name": "aeternity",
+        "symbol": "ae"
+    },
+    "komodo": {
+         "name": "komodo",
+         "symbol": "kmd"
+    },
+    "verge": {
+        "name": "verge",
+        "symbol": "xvg"
+    },
+    "siacoin": {
+        "name": "siacoin",
+        "symbol": "sc"
+    },
+    "bytom": {
+        "name": "bytom",
+        "symbol": "btm"
+    },
+    "iost": {
+        "name": "iost",
+        "symbol": "iost"
+    },
+    "kucoin-shares": {
+        "name": "kucoin-shares",
+        "symbol": "kcs"
+    },
+    "stratis": {
+        "name": "stratis",
+        "symbol": "strat"
+    },
+    "golem": {
+        "name": "golem",
+        "symbol": "gnt"
+    },
+    "status": {
+        "name": "status",
+        "symbol": "snt"
+    },
+    "project-pai": {
+        "name": "project-pai",
+        "symbol": "pai"
+    }    
 }
