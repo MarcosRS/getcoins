@@ -4,6 +4,7 @@ const delay = require('../utils').delay;
 
 async function start() {
         let count = 0
+        let below40MPercent = []
         for (let coinName in coinJson) {
             coinCal.getCoinInfo(coinName).then(result => {
                 Object.assign(coinJson[coinName], result)
@@ -16,9 +17,10 @@ async function start() {
         console.log('Object.keys(coinJson).length: ', Object.keys(coinJson).length);
         Object.values(coinJson).map(coin =>{
             if (coin.currentPercent < 40){
-                console.log(coin);
+                below40MPercent.push(coin);
             }
         })
+        console.log(below40MPercent.sort((a, b) => (a.currentPercent > b.currentPercent)))
 
         // console.log('coinJson: ', JSON.stringify(coinJson));
 }
