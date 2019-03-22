@@ -9,13 +9,13 @@ async function start() {
                 Object.assign(coinJson[coinName], result)
             })
             await delay()
-            console.log('count: ', count++);
+            console.log('count: ', count++, coinName);
         }
         
         console.log('coinJson: ', coinJson);
         console.log('Object.keys(coinJson).length: ', Object.keys(coinJson).length);
         Object.values(coinJson).map(coin =>{
-            if (coin.currentPercent < 30){
+            if (coin.currentPercent < 40){
                 console.log(coin);
             }
         })
